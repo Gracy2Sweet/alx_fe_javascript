@@ -31,14 +31,14 @@ function addQuote() {
     category: quoteCategory
   });
 
-  displayRandomQuote();
+  showRandomQuote();
 
   document.getElementById("newQuoteText").value = "";
   document.getElementById("newQuoteCategory").value = "";
 }
 
 // REQUIRED EVENT LISTENER
-newQuoteBtn.addEventListener("click", displayRandomQuote);
+newQuoteBtn.addEventListener("click", showRandomQuote);
 
 // INITIAL DISPLAY
-displayRandomQuote();
+showRandomQuote();
